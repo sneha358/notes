@@ -7,3 +7,8 @@ The Internet Control Message Protocol (ICMP) is a supporting protocol in the Int
 For example, every device (such as an intermediate router) forwarding an IP datagram first decrements the time to live (TTL) field in the IP header by one. If the resulting TTL is 0, the packet is discarded and an ICMP time exceeded in transit message is sent to the datagram's source address.
 
 Many commonly used network utilities are based on ICMP messages. The traceroute command can be implemented by transmitting IP datagrams with specially set IP TTL header fields, and looking for ICMP time exceeded in transit and Destination unreachable messages generated in response. The related ping utility is implemented using the ICMP echo request and echo reply messages.
+
+## CLI
+1. An argument is a single part of a command line, delimited by blanks.
+1. An option is a particular type of argument (or a part of an argument) that can modify the behavior of the command line.
+1. A parameter is a particular type of argument that provides additional information to a single option or command.
