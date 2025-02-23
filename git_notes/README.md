@@ -42,7 +42,7 @@ __5.__ **To switch between branches**
 git switch main
 ```
 
-### staged unstaged commit changes
+### Staged Unstaged Commit Changes
 __6.__ **To add into file**
 ```bash
 $ vim hello.py
