@@ -40,5 +40,34 @@ nothing to commit, working tree clean
 __5.__ **To switch between branches**
 ```bash
 git switch main
+``
+
+__6.__ **To add into file**
+```bash
+$ vim hello.py
 ```
 
+__7.__ **To check what are the changes before staging**
+```bash
+$ git diff
+```
+
+__8.__ **To staged chages**
+```bash
+$ git add hello.py 
+```
+
+__9.__ **To commit a staged change**
+```bash
+$ git commit -m "comment"
+```
+
+__10.__ **To check what is added after a file is staged**
+```bash
+$ git diff --staged
+```
+
+__11.__ **To unstaged a file staged file**
+```bash
+$ git restore --staged hello.py
+```
