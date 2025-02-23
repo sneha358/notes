@@ -40,8 +40,9 @@ nothing to commit, working tree clean
 __5.__ **To switch between branches**
 ```bash
 git switch main
-``
+```
 
+### staged unstaged commit changes
 __6.__ **To add into file**
 ```bash
 $ vim hello.py
